@@ -145,7 +145,7 @@ button img{
     width: 40px;
 }
 #card1{
-    background-image: url(img/card1.webp);
+    background-image: url(./img/card1.webp);
 }
 #card2{
     background-image: url(img/card2.webp);
