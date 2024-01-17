@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ivansynenko.dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">Creative Front - End Developer.</div> 
+    <div class="top">
+        <div class="left">
+            <div class="container">
+                Hello, i`m Ivan and I <div class="text"></div>
+            </div>
+            <div class="buttons">
+                <button id="first" onclick="scrollToContact()">Let`s talk</button>
+                <button onclick="openPDF()">Resume</button>
+            </div> 
+        </div>
+        <div class="avatar">
+            <img src="img/avatar.svg" alt="icon">
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+        <div class="name_section">About me</div>
+        <div class="content">As a developer, I strive to deliver to create beautiful, performant websites from stunning designs. 
+            I enjoy creating extremely visual and interactive experiences using any technology that will deliver the best results. 
+            With a background in project management and code testing, 
+            I work closely with design focused teams to build websites and microsites for companies and individuals. 
+            I have experience working and collaborating on product teams and leading engineering efforts.</div>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+        <div class="name_section">Projects</div>
+        <div class="content" id="projects">
+
+            <div class="card" >
+                <div class="image" id="card1"></div>
+                <div class="card_title">Gallery</div>
+                <div class="info">An online store revolutionalizing sales of clothing, shoes and other wearables</div>
+                <button onclick="window.location.href ='https://github.com/Che1enger/Gallery?tab=readme-ov-file'">Let`s talk</button>
+            </div>
+            <div class="card" >
+                <div class="image" id="card2"></div>
+                <div class="card_title">Photo editor</div>
+                <div class="info">An online store revolutionalizing sales of clothing, shoes and other wearables</div>
+                <button onclick="window.location.href ='https://github.com/Che1enger/Lightroom_mini'">Let`s talk</button>
+            </div>
+            <div class="card" >
+                <div class="image" id="card3"></div>
+                <div class="card_title">Cinema app</div>
+                <div class="info">An online store revolutionalizing sales of clothing, shoes and other wearables</div>
+                <button onclick="window.location.href ='https://github.com/Che1enger/Cinema-app'">Let`s talk</button>
+            </div>
+            <div class="card" >
+                <div class="image" id="card4"></div>
+                <div class="card_title">ARZNI.eu</div>
+                <div class="info">An online store revolutionalizing sales of clothing, shoes and other wearables</div>
+                <button onclick="window.location.href ='https://github.com/Che1enger/ARZNI'">Let`s talk</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="section">
+        <div class="name_section">Contact me</div>
+        <div class="content" id="contact">
+            <a href="mailto:legex.ee@hotmail.com?">yasprimorki@gmail.com</a>
+            <div class="links">
+                <div class="link">
+                    <button onclick="window.open('https://github.com/Che1enger', '_blank')"><img src="/img/github.svg" alt="Git"></button>
+                    <div class="link_name">GitHub</div>
+                </div>
+                <div class="link">
+                    <button onclick="window.open('https://www.linkedin.com/in/ivan-synenko/', '_blank')"><img src="/img/linkedin.svg" id="linkedin" alt="linkedIn"></button>
+                    <div class="link_name">LinkedIn</div>
+                </div>
+                <div class="link">
+                    <button onclick="openTelegram()" target="_blank"><img src="/img/telegram.svg" id="tg" alt="tg"></button>
+                    <div class="link_name">Telegram</div>
+                </div>
+                <div class="link">
+                    <button onclick="window.open('https://www.instagram.com/che_le_nger/?theme=dark', '_blank')"><img src="/img/inst.svg" alt="Inst"></button>
+                    <div class="link_name">Instagram</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
