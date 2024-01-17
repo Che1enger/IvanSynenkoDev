@@ -145,16 +145,16 @@ button img{
     width: 40px;
 }
 #card1{
-    background-image: url(/img/card1.webp);
+    background-image: url(img/card1.webp);
 }
 #card2{
-    background-image: url(/img/card2.webp);
+    background-image: url(img/card2.webp);
 }
 #card3{
-    background-image: url(/img/card3.webp);
+    background-image: url(img/card3.webp);
 }
 #card4{
-    background-image: url(/img/card4.webp);
+    background-image: url(img/card4.webp);
 }
 .image{
     background-repeat: no-repeat;
