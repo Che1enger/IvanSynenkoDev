@@ -187,8 +187,7 @@ button img{
 
 @media screen and (max-width:700px) {
     .title{
-        font-size: 1.2rem;
-        border: solid 2px;
+        font-size: 1.4rem;
         width: 100%;
     }
     .top{
@@ -199,7 +198,6 @@ button img{
         font-size: 0.37em;
         display: flex;
         column-gap: 20px;
-        border: solid 2px;
     }
     .avatar{
         display: none;
@@ -212,7 +210,7 @@ button img{
     .buttons{
         width: 100%;
         flex-direction: column;
-        row-gap: 10px;
+        row-gap: 5px;
     }
     .section{
         flex-direction: column;
