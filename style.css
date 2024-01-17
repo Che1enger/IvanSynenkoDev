@@ -165,6 +165,10 @@ button img{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     width: 45%;
     border: solid 2px white;
     padding: 10px;
@@ -175,7 +179,7 @@ button img{
     font-size: 0.8rem;
 }
 .card button{
-    margin-top: 10px;
+    width: 40%;
 }
 #projects{
     display: flex;
