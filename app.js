@@ -73,7 +73,7 @@ class TextScramble {
   next();
 
   function openPDF() {
-    var pdfPath = "/My CV.pdf";
+    var pdfPath = "./My CV.pdf";
     window.open(pdfPath, "_blank");
 }
 
